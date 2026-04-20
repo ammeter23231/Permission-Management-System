@@ -1,0 +1,184 @@
+
+©¦  App.vue
+©¦  directory_structure.txt
+©¦  main.ts
+©¦  permisstion.ts
+©¦  setting.ts
+©¦  vite-env.d.ts
+©¦  
+©À©¤api
+©¦  ©À©¤acl
+©¦  ©¦  ©À©¤menu
+©¦  ©¦  ©¦      index.ts
+©¦  ©¦  ©¦      type.ts
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤role
+©¦  ©¦  ©¦      index.ts
+©¦  ©¦  ©¦      type.ts
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤user
+©¦  ©¦          index.ts
+©¦  ©¦          type.ts
+©¦  ©¦          
+©¦  ©À©¤product
+©¦  ©¦  ©À©¤attr
+©¦  ©¦  ©¦      index.ts
+©¦  ©¦  ©¦      type.ts
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤sku
+©¦  ©¦  ©¦      index.ts
+©¦  ©¦  ©¦      type.ts
+©¦  ©¦  ©¦      
+©¦  ©¦  ©À©¤spu
+©¦  ©¦  ©¦      index.ts
+©¦  ©¦  ©¦      type.ts
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤trademark
+©¦  ©¦          index.ts
+©¦  ©¦          type.ts
+©¦  ©¦          
+©¦  ©¸©¤user
+©¦          index.ts
+©¦          type.ts
+©¦          
+©À©¤assets
+©¦  ©À©¤icons
+©¦  ©¦      copyright.svg
+©¦  ©¦      
+©¦  ©¸©¤images
+©¦      ©¦  background.jpg
+©¦      ©¦  
+©¦      ©¸©¤error_images
+©¦              401.png
+©¦              404.png
+©¦              cloud.png
+©¦              
+©À©¤components
+©¦  ©¦  index.ts
+©¦  ©¦  
+©¦  ©À©¤Category
+©¦  ©¦      index.vue
+©¦  ©¦      
+©¦  ©À©¤Pagination
+©¦  ©¦      index.vue
+©¦  ©¦      
+©¦  ©¸©¤SvgIcon
+©¦          index.vue
+©¦          
+©À©¤directive
+©¦      has.ts
+©¦      
+©À©¤layout
+©¦  ©¦  index.vue
+©¦  ©¦  
+©¦  ©À©¤logo
+©¦  ©¦      index.vue
+©¦  ©¦      
+©¦  ©À©¤main
+©¦  ©¦      index.vue
+©¦  ©¦      
+©¦  ©À©¤menu
+©¦  ©¦      index.vue
+©¦  ©¦      
+©¦  ©¸©¤tabbar
+©¦      ©¦  index.vue
+©¦      ©¦  
+©¦      ©À©¤breadcrumb
+©¦      ©¦      index.vue
+©¦      ©¦      
+©¦      ©¸©¤setting
+©¦              index.vue
+©¦              
+©À©¤router
+©¦      index.ts
+©¦      routes.ts
+©¦      
+©À©¤store
+©¦  ©¦  index.ts
+©¦  ©¦  
+©¦  ©¸©¤modules
+©¦      ©¦  category.ts
+©¦      ©¦  setting.ts
+©¦      ©¦  user.ts
+©¦      ©¦  
+©¦      ©¸©¤types
+©¦              type.ts
+©¦              
+©À©¤styles
+©¦      index.scss
+©¦      reset.scss
+©¦      variable.scss
+©¦      
+©À©¤utils
+©¦      request.ts
+©¦      time.ts
+©¦      token.ts
+©¦      
+©¸©¤views
+    ©À©¤404
+    ©¦      index.vue
+    ©¦      
+    ©À©¤acl
+    ©¦  ©À©¤permission
+    ©¦  ©¦      index.vue
+    ©¦  ©¦      
+    ©¦  ©À©¤role
+    ©¦  ©¦      index.vue
+    ©¦  ©¦      
+    ©¦  ©¸©¤user
+    ©¦          index.vue
+    ©¦          
+    ©À©¤home
+    ©¦      index.vue
+    ©¦      
+    ©À©¤login
+    ©¦      index.vue
+    ©¦      
+    ©À©¤product
+    ©¦  ©À©¤attr
+    ©¦  ©¦      index.vue
+    ©¦  ©¦      
+    ©¦  ©À©¤sku
+    ©¦  ©¦      index.vue
+    ©¦  ©¦      
+    ©¦  ©À©¤spu
+    ©¦  ©¦      index.vue
+    ©¦  ©¦      skuForm.vue
+    ©¦  ©¦      spuForm.vue
+    ©¦  ©¦      
+    ©¦  ©¸©¤trademark
+    ©¦          index.vue
+    ©¦          
+    ©¸©¤screen
+        ©¦  index.vue
+        ©¦  
+        ©À©¤components
+        ©¦  ©À©¤age
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤couter
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤line
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤map
+        ©¦  ©¦      china.json
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤rank
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤sex
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤top
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©À©¤tourist
+        ©¦  ©¦      index.vue
+        ©¦  ©¦      
+        ©¦  ©¸©¤year
+        ©¦          index.vue
+
+                
